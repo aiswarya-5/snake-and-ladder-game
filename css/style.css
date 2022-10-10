@@ -10,101 +10,17 @@ td {
 	font-weight: bolder;
 }
 body {
-	background-color: #4559d3;
+	background-image: linear-gradient(45deg, red, blue);
+    	background-repeat: no-repeat;
+    	background-size: cover;
 }
-
 #playBox {
-	margin-left: 37%;
+	margin: 3% 0% 3% 37%;
 }
-.color1 {
-	background-color: #00bfff;
-}
-.color2 {
-	background-color: #ffa500;
-}
-.color3 {
-	background-color: #42b542;
-}
-.color4 {
-	background-color: #9d099d;
-}
-.color5 {
-	background-color: #ff69b4;
-}
-.color6 {
-	background-color: #faebd7;
-}
-#s1 {
-	position: absolute;
-	top: 1.5%;
-	left: 48%;
-}
-#s2 {
-	position: absolute;
-	top: 18%;
-	left: 75%;
-	height: 210px;
-}
-#s3 {
-	position: absolute;
-	top: 20%;
-	left: 39%;
-}
-#s4 {
-	position: absolute;
-	top: 34%;
-	left: 33%;
-	transform: rotateZ(-52deg);
-}
-#s5 {
-	position: absolute;
-	top: 57%;
-	left: 52%;
-	transform: rotateZ(-29deg);
-}
-#s6 {
-	position: absolute;
-	top: 12%;
-	left: 42%;
-	transform: rotate(45deg);
-}
-#l1 {
-	position: absolute;
-	top: 61%;
-	transform: rotate(38deg);
-	left: 47%;
-	width: 161px;
-}
-#l2 {
-	position: absolute;
-	top: 0%;
-	left: 64%;
-	width: 200px;
-	height: 510px;
-	transform: rotate(-18deg);
-}
-#l3 {
-	position: absolute;
-	transform: rotate(32deg);
-	width: 161px;
-	top: 1%;
-	left: 36%;
-	height: 228px;
-}
-#l4 {
-	height: 253px;
-	width: 161px;
-	position: absolute;
-	top: 36%;
-	left: 76%;
-}
-#l5 {
-	height: 171px;
-	width: 161px;
-	position: absolute;
-	transform: rotate(32deg);
-	top: 1%;
-	left: 79%;
+table{
+	background-image: url(../image/bg.png);
+	background-repeat: no-repeat;
+    	background-size: cover;
 }
 #play {
 	height: 70px;
