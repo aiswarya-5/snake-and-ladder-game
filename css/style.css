@@ -1,0 +1,145 @@
+* {
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+}
+td {
+	height: 51.8px;
+	width: 70px;
+	text-align: center;
+	font-weight: bolder;
+}
+body {
+	background-color: #4559d3;
+}
+
+#playBox {
+	margin-left: 37%;
+}
+.color1 {
+	background-color: #00bfff;
+}
+.color2 {
+	background-color: #ffa500;
+}
+.color3 {
+	background-color: #42b542;
+}
+.color4 {
+	background-color: #9d099d;
+}
+.color5 {
+	background-color: #ff69b4;
+}
+.color6 {
+	background-color: #faebd7;
+}
+#s1 {
+	position: absolute;
+	top: 1.5%;
+	left: 48%;
+}
+#s2 {
+	position: absolute;
+	top: 18%;
+	left: 75%;
+	height: 210px;
+}
+#s3 {
+	position: absolute;
+	top: 20%;
+	left: 39%;
+}
+#s4 {
+	position: absolute;
+	top: 34%;
+	left: 33%;
+	transform: rotateZ(-52deg);
+}
+#s5 {
+	position: absolute;
+	top: 57%;
+	left: 52%;
+	transform: rotateZ(-29deg);
+}
+#s6 {
+	position: absolute;
+	top: 12%;
+	left: 42%;
+	transform: rotate(45deg);
+}
+#l1 {
+	position: absolute;
+	top: 61%;
+	transform: rotate(38deg);
+	left: 47%;
+	width: 161px;
+}
+#l2 {
+	position: absolute;
+	top: 0%;
+	left: 64%;
+	width: 200px;
+	height: 510px;
+	transform: rotate(-18deg);
+}
+#l3 {
+	position: absolute;
+	transform: rotate(32deg);
+	width: 161px;
+	top: 1%;
+	left: 36%;
+	height: 228px;
+}
+#l4 {
+	height: 253px;
+	width: 161px;
+	position: absolute;
+	top: 36%;
+	left: 76%;
+}
+#l5 {
+	height: 171px;
+	width: 161px;
+	position: absolute;
+	transform: rotate(32deg);
+	top: 1%;
+	left: 79%;
+}
+#play {
+	height: 70px;
+	width: 200px;
+	background-color: #e92e5d;
+	color: floralwhite;
+	border: 4px solid #ddddeb;
+	border-radius: 40px;
+	font-size: xxx-large;
+	font-weight: bolder;
+	position: absolute;
+	top: 35%;
+	left: 9%;
+	text-align: center;
+	cursor: pointer;
+}
+#dice {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	border: solid floralwhite 4px;
+	top: 15%;
+	left: 12%;
+
+}
+#dice img {
+	height: 100%;
+	width: 100%;
+}
+#snakeMsg{
+	position: absolute;
+    	top: 55%;
+    	left: 10%;
+	padding: 13px;
+}
+
+
+
